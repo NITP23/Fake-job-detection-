@@ -1,3 +1,4 @@
+# Edited README for example contribution
 # 🌐 Fake Job Detection System  
 ### **AI-Powered Scam Job Link Analyzer**  
 <img src="https://img.icons8.com/?size=512&id=59859&format=png" width="110"/>
