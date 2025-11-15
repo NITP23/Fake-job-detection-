@@ -1,73 +1,83 @@
-# Welcome to your Lovable project
+# 🌐 Fake Job Detection System  
+### **AI-Powered Scam Job Link Analyzer**  
+<img src="https://img.icons8.com/?size=512&id=59859&format=png" width="110"/>
 
-## Project info
+---
 
-**URL**: https://lovable.dev/projects/437261c5-e618-43a5-826b-0d6e50ec5d5c
+<p align="center">
+  <b>Detect fake or scam job postings instantly using AI + NLP + URL Intelligence.</b><br>
+  Enter any job link → System analyzes → Returns <b>Legitimate / Fake / Suspicious</b>.
+</p>
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+# 🏷️ Badges  
+<p align="center">
 
-**Use Lovable**
+ <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge"/>
+ <img src="https://img.shields.io/badge/Project-AI%20%2F%20ML-blue?style=for-the-badge"/>
+ <img src="https://img.shields.io/badge/License-MIT-orange?style=for-the-badge"/>
+ <img src="https://img.shields.io/badge/Build-Passing-success?style=for-the-badge"/>
+ <img src="https://img.shields.io/badge/Made%20with-❤-ff69b4?style=for-the-badge"/>
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/437261c5-e618-43a5-826b-0d6e50ec5d5c) and start prompting.
+</p>
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 🚀 Overview
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Fake job scams are increasing globally, tricking people into sharing personal data or making payments.  
+This system helps users verify job links before trusting them by applying:
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+✔ NLP-based text analysis  
+✔ URL fraud pattern detection  
+✔ Domain age & SSL checking  
+✔ Job description quality scoring  
+✔ AI classification (Legitimate / Fake / Suspicious)
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## ✨ Features
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### 🔍 **AI Job Link Classification**
+- Detects scam patterns in job URLs  
+- Flags phishing domains / suspicious redirects  
 
-# Step 3: Install the necessary dependencies.
-npm i
+### 🤖 **NLP-Powered Text Analysis**
+- Extracts job description  
+- Detects scam keywords & unrealistic offers  
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+### 🔐 **Domain Reputation Check**
+- WHOIS lookup  
+- SSL certificate validation  
+- Domain age detection  
 
-**Edit a file directly in GitHub**
+### 📊 **Risk Score Output**
+- e.g., *“This job posting is 82% likely to be FAKE.”*
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### 🖥️ **Simple & Clean User Interface**
+- Enter link → Click Detect → Get Result instantly  
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🛠 Tech Stack
 
-## What technologies are used for this project?
+### **Frontend**
+- React.js / HTML / CSS / Tailwind  
+- Axios for API calls  
 
-This project is built with:
+### **Backend**
+- Node.js (Express) or Python FastAPI  
+- Web scraping module  
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### **ML / AI**
+- Python  
+- Scikit-Learn / NLTK / TF-IDF  
+- URL feature extraction  
 
-## How can I deploy this project?
+### **Database**
+- MongoDB / Firebase  
 
-Simply open [Lovable](https://lovable.dev/projects/437261c5-e618-43a5-826b-0d6e50ec5d5c) and click on Share -> Publish.
+---
 
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## 📂 Project Structure
