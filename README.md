@@ -65,7 +65,8 @@ This system helps users verify job links before trusting them by applying:
 
 ### **Frontend**
 - React.js / HTML / CSS / Tailwind  
-- Axios for API calls  
+- Axios for API calls
+- typescript
 
 ### **Backend**
 - Node.js (Express) or Python FastAPI  
